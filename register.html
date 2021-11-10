@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+
+    <title>Login-Form</title>
+</head>
+<body>
+
+    <header class="navbar">
+        <h1 class="logo">Logo</h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+      </header>
+
+    <div class="body">
+    <div class="aside">
+        <img src="./img/among-us-41787.png" alt="">
+        <div>
+            <h1>Welcome</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, fuga?</p>
+        </div>
+        <button >Login</button>
+    </div>
+
+    <form action="" class="reg-form">
+        <div class="r-head">
+            <div style="height: 7vh;">
+                <div style="float: right;">
+                   <a href="./index.html">Login</a>  <a href="./register.html" >Register</a>  
+                </div>
+            </div>
+            <h1 style="text-align: center; font-weight: 500; color: gray;">Apply as a Employee</h1>
+        </div>
+        <div class="input-div" style="margin-top: 5vh; padding: 0 40px;">
+            <input type="text" name="fname" placeholder="First Name*" required>
+            <input type="text" name="fname" placeholder="Last Name*" required>
+            <input type="email" name="fname" placeholder="Email Address*" required>
+            <input type="tel" name="fname" placeholder="Phone Number*" required>
+            <input type="password" name="fname" placeholder="password*" required>
+            <input type="password" name="fname" placeholder="Comfirm password*" required>
+            <input type="text" name="fname" placeholder="Select youur security question?*" required>
+            <input type="text" name="fname" placeholder="Answer*" required>
+        </div>
+        <div class="radio">
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+         </div>
+        <button class="reg-btn">Submit</button>
+
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+/* 
+registration */
+.body{
+    display: flex;
+    background:linear-gradient(45deg, #3700ff, #42c3ff );
+    background-repeat: no-repeat;
+    height: 92vh;
+    padding: 40px 20px;
+}
+.aside{
+    width: 30%; 
+    text-align: center;
+    color: #eeeeee;
+}
+.aside img{
+    width:250px;
+    height: 250px;
+    margin: 20px;
+}
+.aside button{
+    text-decoration: none;
+    margin: 15px;
+    padding: 10px 35px;
+    color: #3700ff;
+    border: none;
+    border-radius: 15px;
+    background: #ffffff ;
+}
+.reg-form{
+    max-width: 70%;
+    background-color: #eeeeee;
+    padding: 30px 50px;
+    border-radius: 7em 0% 0px 7em / 20em 0em 0px 20em;
+}
+.r-head{
+    height: 15vh;
+}
+.r-head a{
+    text-decoration: none;
+    float: right;
+    margin: 5px;
+    padding: 7px 30px;
+    color: #eeeeee;
+    border: none;
+    border-radius: 15px;
+    background: #044caa ;
+}
+.input-div input{
+    width: 45%;
+    margin: 10px 15px;
+    padding: 13px;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+.input-div input:valid:focus{
+    border: 1px solid greenyellow;
+}
+.input-div input:invalid:focus{
+    border: 1px solid red;
+}
+.radio{
+   padding: 0 40px;
+   margin: 10px 15px;
+}
+.reg-btn{
+    float: right;
+    margin: 10px 65px;
+    padding: 7px 35px;
+    color: #eeeeee;
+    border: none;
+    border-radius: 15px;
+    background: #044caa ;
+}
